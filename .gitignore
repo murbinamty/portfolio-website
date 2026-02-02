@@ -1,0 +1,86 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+*.env
+
+# Node Modules (if using npm/yarn)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build Outputs
+dist/
+build/
+out/
+*.pyc
+__pycache__/
+*.pyo
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+*.bak
+
+# Credentials and Secrets
+*password*
+*credentials*
+*secret*
+*.pem
+*.pfx
+*.p12
+*.key
+!public.key
+
+# B2Bi Specific
+*.b64
+SIBinaryFile.*
+*_Export.xml
+context.xml
+
+# Personal/Sensitive Documents
+# (Keep resume but exclude other personal docs)
+# Mario_Urbina_*.pdf (uncomment if you don't want resume in repo)
+
+# Test Results
+test-results/
+coverage/
+*.xml
+!package.xml
+
+# Large Binary Files
+*.tar.gz
+*.zip
+*.rar
+*.7z
+*.iso
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup Files
+*_backup.*
+*_bak.*
+*.backup
