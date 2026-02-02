@@ -198,4 +198,4 @@ Already included in index.html:
 For issues or questions:
 - Check GitHub Issues
 - Review GitHub Pages documentation
-- Contact: mario.urbina@kellanova.com
+- Contact: mario.urbina@gmail.com

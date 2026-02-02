@@ -355,7 +355,7 @@ python scripts/update_properties.py --env qa --db-host qadb01 --db-port 1521
 ## Author
 **Mario Urbina**  
 Senior B2B Integration Engineer  
-mario.urbina@kellanova.com
+mario.urbina@gmail.com
 
 ---
 *Last Updated: February 2026*

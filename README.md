@@ -5,7 +5,7 @@ Welcome to my professional portfolio! I'm an experienced B2B Integration Enginee
 ## 🚀 Quick Links
 - **Website**: [View Live Portfolio](https://mariou rbina.github.io/portfolio)
 - **Resume**: [Download PDF](./Mario_Urbina_26A.pdf)
-- **Email**: mario.urbina@kellanova.com
+- **Email**: mario.urbina@gmail.com
 
 ## 💼 About Me
 Strategic Enterprise Solutions Architect and Agile Program Leader with 15+ years of experience in:
