@@ -92,7 +92,7 @@ Event      to EDI       (MXL)        Headers      Send
 ## Sample Implementations
 
 ### 850 Purchase Order (Inbound)
-**Walmart → Kellanova Flow**
+**Trading Partner → Company Flow**
 
 ```xml
 <!-- Business Process: Process_850_Inbound -->
@@ -134,7 +134,7 @@ PID05*Description  → <ItemDescription>Description</ItemDescription>
 ```
 
 ### 810 Invoice (Outbound)
-**Kellanova → Customer Flow**
+**Company → Customer Flow**
 
 ```xml
 <!-- Business Process: Generate_810_Invoice -->
@@ -270,9 +270,9 @@ def process_edi_message(message):
             "sftp": {
                 "host": "sftp.walmart.com",
                 "port": 22,
-                "username": "kellanova",
-                "inbound_path": "/outbound/kellanova",
-                "outbound_path": "/inbound/kellanova"
+                "username": "company",
+                "inbound_path": "/outbound/company",
+                "outbound_path": "/inbound/company"
             }
         },
         "transactions": {
@@ -334,7 +334,7 @@ alerts:
   - name: High Error Rate
     condition: error_rate > 5%
     window: 15min
-    notify: [edi-team@kellanova.com, pagerduty]
+    notify: [edi-team@company.com, pagerduty]
     
   - name: SLA Breach
     condition: processing_time > sla_threshold
@@ -461,7 +461,7 @@ Solution:
 ## Author
 **Mario Urbina**  
 Senior B2B Integration Engineer  
-mario.urbina@kellanova.com
+mario.urbina@gmail.com
 
 ---
 *Last Updated: February 2026*

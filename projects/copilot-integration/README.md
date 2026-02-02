@@ -385,12 +385,12 @@ User: "Show me all maps used by Walmart"
 
 Copilot: Walmart uses the following maps in B2Bi:
 
-Inbound (Walmart → Kellanova):
+Inbound (Trading Partner → Company):
 1. EDI_850_4010_Walmart_to_SAP.mxl - Purchase Orders (456/day)
 2. EDI_860_4010_Walmart_to_SAP.mxl - PO Changes (23/day)
 3. EDI_865_4010_Walmart_to_SAP.mxl - PO Changes (12/day)
 
-Outbound (Kellanova → Walmart):
+Outbound (Company → Trading Partner):
 1. SAP_to_EDI_810_5010_Walmart.mxl - Invoices (523/day)
 2. SAP_to_EDI_856_5010_Walmart.mxl - ASN (370/day)
 3. Generate_997_Walmart.mxl - Acknowledgments (456/day)
@@ -529,7 +529,7 @@ class KnowledgeGenerator:
 ## Author
 **Mario Urbina**  
 Senior B2B Integration Engineer  
-mario.urbina@kellanova.com
+mario.urbina@gmail.com
 
 ---
 *Last Updated: February 2026*

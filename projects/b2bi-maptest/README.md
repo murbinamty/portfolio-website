@@ -133,8 +133,8 @@ retry_strategy = Retry(
 ═══════════════════════════════════
 
 📋 Configuration:
-  • B2Bi URL: https://usaws3608:8156/bpaas/v1/pocbpass
-  • User: uskm1u04
+  • B2Bi URL: [Enterprise B2Bi Platform]
+  • User: [authenticated]
   • Test Group: edi
   • Total Maps: 45
 
@@ -222,7 +222,7 @@ jobs:
 ## Author
 **Mario Urbina**  
 Senior B2B Integration Engineer  
-mario.urbina@kellanova.com
+mario.urbina@gmail.com
 
 ---
 *Last Updated: February 2026*
