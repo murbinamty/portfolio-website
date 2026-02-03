@@ -14,6 +14,7 @@
     --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
     --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
     --transition: all 0.3s ease;
+    --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
 
 * {
@@ -465,6 +466,68 @@ section {
     border-radius: 20px;
     font-size: 0.85rem;
     font-weight: 600;
+}
+
+/* ===========================
+   Achievements Section
+   =========================== */
+.achievements {
+    background: var(--gradient-primary);
+    color: white !important;
+    padding: 4rem 0;
+}
+
+.achievements .section-title {
+    color: white !important;
+    margin-bottom: 3rem;
+}
+
+.achievements-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.achievement-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 2rem;
+    transition: var(--transition);
+    color: white !important;
+}
+
+.achievement-card:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.achievement-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.achievement-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: white !important;
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+}
+
+.achievement-year {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.95) !important;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.achievement-description {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.95) !important;
 }
 
 /* ===========================
