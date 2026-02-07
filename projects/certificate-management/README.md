@@ -504,9 +504,9 @@ System Health:
 
 ```yaml
 Email Notifications:
-  - ops@kellanova.com (operations)
-  - certs@kellanova.com (certificate team)
-  - security@kellanova.com (security team)
+  - ops@company.com (operations)
+  - certs@company.com (certificate team)
+  - security@company.com (security team)
 
 Microsoft Teams:
   - Certificate Automation channel
