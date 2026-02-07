@@ -1,23 +1,23 @@
 # Copilot B2Bi Integration
 
 ## Overview
-AI-powered intelligent assistant for IBM Sterling B2Bi operations, providing natural language access to maps, business processes, accounts, and operational knowledge.
+AI-powered intelligent assistant for Order to Cash operations, providing natural language access to technical components and business processes specific for customers, and operational knowledge.
 
 ## Features
 
 ### Core Capabilities
-- 🤖 **Natural Language Queries**: Ask questions in plain English about B2Bi artifacts
-- 📚 **Knowledge Base Management**: Comprehensive documentation of maps, BPs, and configurations
-- 🔍 **Intelligent Search**: Semantic search across all B2Bi components
+- 🤖 **Natural Language Queries**: Ask questions in plain English about Order to Cash process
+- 📚 **Knowledge Base Management**: Comprehensive documentation of components, and configurations
+- 🔍 **Intelligent Search**: Semantic search across all components
 - 💡 **Troubleshooting Assistant**: AI-powered recommendations for common issues
 - 📊 **Operational Insights**: Analysis of patterns and trends
-- 🎯 **Context-Aware Responses**: Understands B2Bi-specific terminology and concepts
+- 🎯 **Context-Aware Responses**: Understands specific terminology and concepts
 
 ### Integration Points
-- Sterling B2Bi REST APIs
+- Middleware (Sterling B2Bi REST APIs)
 - Azure AI Foundry (Agents)
 - GitHub Copilot Chat
-- Map/BP/Account metadata
+- Components metadata
 - Operational logs and metrics
 
 ## Architecture
@@ -33,15 +33,15 @@ Copilot Integration Architecture
 └──────────────┘         └──────────────┘         └──────────────┘
                                ↓
                          ┌──────────┐
-                         │ Sterling │
-                         │   B2Bi   │
+                         │Components│
+                         │   B2B    │
                          │   APIs   │
                          └──────────┘
 ```
 
 ## Technology Stack
 - **AI Platform**: Azure AI Foundry (Agents SDK)
-- **LLM**: GPT-4 Turbo
+- **LLM**: GPT-4 Turbo, Claude
 - **Vector Store**: Azure AI Search
 - **Languages**: Python, Markdown, JSON
 - **Integration**: GitHub Copilot Extensions
@@ -257,6 +257,115 @@ async function queryB2BiAgent(
 ```
 
 ## Usage Examples
+
+### Business User: Understanding Order to Cash Process
+```
+Business User: "I'm new to the team and need to understand how 
+our order-to-cash process works with EDI. Can you help?"
+
+Copilot: Welcome! I'll explain our Order to Cash (O2C) process 
+and how EDI enables automated transaction processing.
+
+**Order to Cash Process Overview:**
+
+The O2C process is the complete business cycle from receiving 
+a customer order to receiving payment. EDI automates this entire 
+flow, eliminating manual data entry and reducing errors.
+
+**The 5-Step EDI-Enabled O2C Cycle:**
+
+1️⃣ **Purchase Order (PO) Receipt - EDI 850**
+   - Customer electronically sends their order
+   - System validates and imports to SAP automatically
+   - No manual data entry required
+   - Benefit: Orders processed in minutes vs hours
+
+2️⃣ **Order Acknowledgment - EDI 855**
+   - Automatically confirms order acceptance
+   - Provides expected ship dates and pricing
+   - Sent back to customer within minutes
+   - Benefit: Immediate confirmation builds customer confidence
+
+3️⃣ **Advance Ship Notice (ASN) - EDI 856**
+   - Generated when order ships
+   - Contains tracking, box contents, quantities
+   - Helps customer prepare for receiving
+   - Benefit: Reduces receiving errors and delays
+
+4️⃣ **Invoice - EDI 810**
+   - Electronic invoice sent after shipment
+   - Matches PO and ASN exactly
+   - Auto-posted to customer's Accounts Payable
+   - Benefit: Faster payment, fewer disputes
+
+5️⃣ **Payment & Remittance - EDI 820/997**
+   - Payment advice received electronically
+   - Auto-reconciliation in our system
+   - Functional acknowledgments track all transactions
+   - Benefit: Improved cash flow visibility
+
+**Common Business Scenarios I Can Help With:**
+
+✅ "How do I check the status of a customer order?"
+✅ "Why hasn't the customer acknowledged our invoice?"
+✅ "What EDI documents are required for a new trading partner?"
+✅ "How long does each step typically take?"
+✅ "What happens if there's an error in the EDI transaction?"
+
+**Key Benefits of EDI in O2C:**
+- 99.9% accuracy vs ~4% error rate with manual entry
+- Order processing time reduced from hours to minutes
+- Faster payment cycles (typically 5-10 days faster)
+- Real-time visibility into order status
+- Reduced operational costs
+
+Feel free to ask me about any specific part of the process, 
+trading partner requirements, or transaction troubleshooting!
+```
+
+### Business User: Order to Cash Process Inquiry
+```
+Business User: "Can you explain our Order to Cash process for 
+customer purchase orders from Walmart?"
+
+Copilot: Here's an overview of the Order to Cash (O2C) process 
+for Walmart purchase orders:
+
+📥 **1. Order Receipt (Inbound)**
+- Walmart sends EDI 850 Purchase Order via SFTP
+- B2Bi receives and validates the transaction
+- EDI_850_to_SAP map transforms to SAP IDoc format
+- Order automatically created in SAP ERP
+- Processing time: ~5 minutes from receipt to SAP
+
+📋 **2. Order Acknowledgment**
+- SAP generates order confirmation
+- EDI_855_Acknowledgment map creates response
+- Acknowledgment sent back to Walmart within 15 minutes
+- Confirms: Order accepted, expected ship date, quantities
+
+📦 **3. Order Fulfillment**
+- Warehouse picks and ships products
+- SAP generates shipment notification
+- EDI_856_ASN map creates Advance Ship Notice
+- ASN sent to Walmart with: tracking #, shipment details, carton contents
+
+💰 **4. Invoice & Payment**
+- EDI_810_Invoice sent after shipment
+- Walmart processes payment (NET 60 terms)
+- EDI_820_Payment_Advice received confirming payment
+- Payment reconciled in SAP
+
+📊 **Process Metrics:**
+- Average order cycle time: 2-3 days
+- Order accuracy rate: 99.7%
+- On-time delivery: 98.5%
+- Monthly order volume: ~12,000 POs
+
+🔍 **To track a specific order:**
+Use the order number from Walmart's PO and I can help you 
+see its current status in the process flow.
+```
 
 ### Query Map Information
 ```
