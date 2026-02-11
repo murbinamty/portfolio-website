@@ -84,3 +84,9 @@ coverage/
 *_backup.*
 *_bak.*
 *.backup
+
+# Local Documentation (kept locally but not in repo)
+DEPLOYMENT.md
+QUICKSTART.md
+SETUP.md
+PROJECT_SUMMARY.md
