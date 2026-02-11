@@ -134,7 +134,49 @@ Technical Lead and Product Owner for B2B Integration projects. Designed AWS clou
 ### Technical Project Lead / IT Architect | NextEra Energy (Apr 2010 - Nov 2015)
 Integration Project Lead driving process improvement projects, CI/CD practices, and MFT architecture. Led business process mapping for Six Sigma projects.
 
-## 📫 Get In Touch
+## � Testimonials & Recommendations
+
+### ⭐ Execution & Delivery Excellence
+> "This is a great example of executing with excellence! Well done team. You should all be very proud of this accomplishment. Thank you for the great communication and support throughout."  
+> — **Senior Leadership**
+
+### 🤝 Collaboration & Partnership
+> "Thank you for all your great communication and support throughout. #oneteamstronger."  
+> — **Senior Leadership, Major Platform Upgrade**
+
+> "Thanks for helping us get the Harmony and B2BI projects over the line — it's been a pleasure working together."  
+> — **Cross-Functional Project Leadership**
+
+### 🚀 Ownership & Leadership Impact
+> "Consistently takes full responsibility for deliverables and proactively identifies and resolves risks. This builds trust and confidence across teams."  
+> — **Stakeholder Leadership Review**
+
+### 💡 Technical Excellence & Problem Solving
+> "Great example of executing with excellence. Communication, coordination, and technical delivery were outstanding."  
+> — **Enterprise Integration Go-Live**
+
+### 🌟 Strategic Advisory
+> "Thank you for being proactive and for helping us think through this in a structured way. This will ease concerns and make things clearer for everyone."  
+> — **Legal & Stakeholder Partners**
+
+### 🏆 Platform & Operational Excellence
+> "This is Brilliant at the Basics and helped improve performance and drive cost avoidance in our environment."  
+> — **Leadership Feedback**
+
+> "This has been our smoothest cutover to date. Thanks to everyone involved."  
+> — **Program Leadership, Project Go-Live**
+
+> "Fantastic job to the team on this accomplishment and moving B2Bi Global onto its next journey. Great collaboration and teamwork."  
+> — **Viva Engage Leadership**
+
+> "The team continues to do a fantastic job rallying around issues, collaborating, and supporting the plants."  
+> — **Program Leadership**
+
+### 💼 Business Impact
+> "What a win for our people and operational efficiency. Reducing manual effort, improving accuracy, and delivering real business value."  
+> — **Leadership, Post-Kronos Go-Live**
+
+## �📫 Get In Touch
 I'm always interested in hearing about new opportunities, projects, or collaborating on enterprise architecture and AI initiatives.
 
 - **Phone**: +1 561-284-4999
