@@ -1,76 +1,142 @@
 # Mario Urbina - Professional Portfolio
 
-Welcome to my professional portfolio! I'm an experienced B2B Integration Engineer specializing in EDI, Sterling B2Bi, and DevOps automation.
+Welcome to my professional portfolio! I'm a Strategic Enterprise Solutions Architect & Agile Program Leader driving innovation through AI initiatives, enterprise architecture, and end-to-end solution design across global enterprises.
 
 ## 🚀 Quick Links
-- **Website**: [View Live Portfolio](https://mariou rbina.github.io/portfolio)
+- **Website**: [View Live Portfolio](https://mariourbi na.github.io/portfolio)
 - **Resume**: [Download PDF](./Mario_Urbina_26A.pdf)
 - **Email**: mario.urbina@gmail.com
+- **LinkedIn**: [linkedin.com/in/mario-urbina-b9bb255](https://www.linkedin.com/in/mario-urbina-b9bb255/)
+- **GitHub**: [github.com/murbinamty](https://github.com/murbinamty)
 
 ## 💼 About Me
-Strategic Enterprise Solutions Architect and Agile Program Leader with 15+ years of experience in:
-- **AI & Innovation**: Generative AI (GenAI), Agentic Workflows, LLMOps, Responsible AI Governance
-- **Enterprise Architecture**: Solution Design, Architecture Strategies, Standards & Governance
-- **Technology Leadership**: SDLC Processes, DevOps/Release Management, Data Architecture
-- **Integration & APIs**: Cloud Platforms, API Strategy, B2B/EDI Integration
-- **Leadership**: Strategic Advisor to CIO-level Forums, Cross-functional Team Mentoring
+Dynamic Strategic Enterprise Solutions Architect with 15+ years of experience in technology leadership, end-to-end solution design, and SDLC processes across global enterprises. Expert in defining enterprise architecture strategies, principles, and standards that ensure scalability, reliability, security, and alignment with business goals.
 
-**Bilingual**: English & Spanish
+Proven leader in AI journey initiatives, including:
+- **Generative AI (GenAI)** & Agentic Workflows
+- **LLMOps** & Responsible AI Governance
+- **Enterprise Architecture** & Solution Design
+- **Technology Leadership** & DevOps/Release Management
+- **Data Architecture & Integration** (APIs, Cloud Platforms)
 
-## 🛠️ Featured Projects
+Hands-on architect passionate about innovation and serving as a strategic advisor to executive leadership (including CIO-level forums). Currently driving enterprise transformation at Mars (formerly Kellanova). **Bilingual**: English & Spanish
 
-### 1. B2Bi Map Testing Framework
-Comprehensive automated testing framework for Sterling B2Bi maps with:
-- Automated regression testing for EDI/XML/Flat file maps
-- Real-time progress tracking and detailed reporting
-- Email notifications and HTML test reports
-- Support for batch testing and group testing
+## 🏆 Featured Projects
 
-**Tech Stack**: Python, REST APIs, Sterling B2Bi  
-**Repository**: [View Project](./projects/b2bi-maptest/)
+### 1. Enterprise Agentic AI Platform (Azure AI Foundry)
+Architected enterprise-wide Azure AI Foundry platform deploying 25+ production AI agents across 8 business units. Built comprehensive MLOps infrastructure supporting 200+ users achieving $3.2M annual savings with 99.7% uptime and 446% ROI.
 
-### 2. B2Bi DevOps Automation
-Enterprise-level DevOps tools and CI/CD pipelines for B2Bi deployments:
-- GitHub Actions integration for automated deployments
-- Property file management and configuration automation
-- Export/import automation for business processes and maps
-- Copilot integration for intelligent B2Bi operations
+**Impact**: $3.2M savings, 25+ agents, 8 business units  
+**Tech Stack**: Azure AI Foundry, MLOps, Python  
+**Repository**: [View Project](./projects/agentic-azure-ai-foundry/)
 
-**Tech Stack**: Python, Shell, GitHub Actions, YAML  
-**Repository**: [View Project](./projects/b2bi-devops/)
+### 2. AI-ML Center of Excellence
+Founded enterprise AI/ML Center of Excellence training 450+ employees across 35 AI projects. Delivered $1.8M annual savings with 204% ROI through governance frameworks, shared infrastructure, and strategic AI adoption programs.
 
-### 3. EDI Integration Solutions
-Production-ready EDI integration solutions for various trading partners:
-- ANSI X12 (810, 850, 855, 856, 997) implementations
-- EDIFACT support for international partners
-- Custom flat file transformations
-- Real-time monitoring and error handling
+**Impact**: $1.8M savings, 450+ employees trained  
+**Tech Stack**: Azure AI, Machine Learning, Governance Frameworks  
+**Repository**: [View Project](./projects/ai-ml-center-of-excellence/)
 
-**Tech Stack**: Sterling B2Bi, MXL Maps, Business Processes  
-**Repository**: [View Project](./projects/edi-integration/)
+### 3. Agentic Customer Onboarding Platform
+Architected enterprise agentic onboarding using Copilot Studio and Power Platform automating 85% of workflows. Reduced onboarding from 45 to 7 days, saving $450K annually with 98% CSAT through intelligent automation and multi-system orchestration.
 
-## 📊 Skills & Technologies
+**Impact**: 84% time reduction, $450K savings  
+**Tech Stack**: Copilot Studio, Power Platform, Azure  
+**Repository**: [View Project](./projects/agentic-customer-onboarding/)
 
-### Programming Languages
-- Python, Shell/Bash, PowerShell, SQL, JavaScript
+### 4. Product Management & Integration Platform
+Established product management discipline leading $8M initiative serving 2,500+ users. Delivered developer portal, AI-powered monitoring, and low-code builder achieving $2.3M cost savings with 44% ROI and 42% adoption increase.
 
-### B2B/EDI Platforms
-- IBM Sterling B2Bi
-- TIBCO BusinessWorks
-- MuleSoft (Experience)
+**Impact**: $2.3M savings, 2,500+ users, 44% ROI  
+**Tech Stack**: Product Management, Platform Engineering, AI Integration  
+**Repository**: [View Project](./projects/product-management-integration/)
 
-### DevOps & Tools
-- Git/GitHub, GitHub Actions
-- Docker, Kubernetes (Familiarity)
-- Jenkins, Azure DevOps
-- Linux/Unix administration
+### 5. PMO Establishment & Governance
+Built Project Management Office from scratch for fast-growing tech organization, establishing centralized oversight, standardized processes, and governance frameworks. Reduced project delays by 30% and scaled to support 20+ concurrent projects.
 
-### Cloud & Databases
-- Azure (AI Foundry, Functions, Storage)
-- AWS (Lambda, S3)
-- Oracle, MS SQL Server
+**Impact**: 30% delay reduction, 20+ projects managed  
+**Tech Stack**: PMO, Agile, Governance  
+**Repository**: [View Project](./projects/pmo-establishment/)
+
+### 6. RPA Blue Prism Program
+Established enterprise-wide RPA program deploying 45 automations achieving $2.7M annual savings and 125K hours automated. Managed Blue Prism platform with 99.2% reliability and comprehensive governance delivering 225% ROI.
+
+**Impact**: $2.7M savings, 125K hours automated  
+**Tech Stack**: Blue Prism, RPA, Automation  
+**Repository**: [View Project](./projects/rpa-blue-prism/)
+
+## 📊 Skills & Expertise
+
+### AI & Innovation
+- Generative AI (GenAI), AI Agents, Agentic Workflows
+- LLMOps, Responsible AI Governance
+- Machine Learning, Azure AI Foundry
+- MS 365 Copilot, Copilot Studio
+
+### Enterprise Architecture
+- Solution Design, TOGAF
+- Architecture Strategies & Governance
+- Data Architecture, API Strategy
+- Microservices, Cloud Architecture
+
+### Agile & PM Tools
+- JIRA, Confluence, Azure Boards
+- MS Project, Smartsheet, Trello
+- Asana, Adobe Workfront
+
+### Cloud & Integration
+- Azure (AI Foundry, Functions, Storage, Graph API)
+- AWS (ML, Lambda, S3, EC2)
+- IBM Sterling B2Bi, MuleSoft, TIBCO BusinessWorks
+- API Gateway (Kong), Microservices
+
+### Programming & Automation
+- Python, Java, PowerShell, SQL
+- GitHub Actions, Jenkins
+- Docker, Kubernetes
+- MS Power Apps, Power Automate
+
+### Data & Analytics
+- Power BI, Tableau, Jupyter Notebooks
+- SQL, Oracle, MS SQL Server, PostgreSQL
+
+### B2B/EDI & Integration
+- IBM Sterling B2Bi, TIBCO, Webmethods, Opentext
+- SAP, ANSI X12, EDIFACT
+- DevOps/CI/CD, Automation
+
+## 🎓 Certifications & Training
+- **Azure AI Engineer Associate** (Microsoft)
+- **Azure Solutions Architect Expert** (Microsoft)
+- **AWS Certified Solutions Architect** (Amazon)
+- **Certified Scrum Master (CSM)** (Scrum Alliance)
+- **TOGAF 9 Certified** (The Open Group)
+- **Six Sigma Yellow/Green Belt** (Six Sigma Institute)
+
+## 🏆 Key Achievements
+- **AI Innovation Leader**: Directed development of AI agents and agentic workflows for B2B integration automation, reducing manual effort by 25%
+- **Founded AI-ML CoE** (2019): Established AI-ML Center of Excellence for the Americas, coaching business stakeholders on AI and cloud capabilities
+- **DevOps Transformation**: Established DevOps automation and CI/CD practices achieving 40% reduction in deployment time and 35% improvement in system reliability
+- **Agile Champion**: Led enterprise-wide Agile adoption coaching global teams, boosting team efficiency by 35% and improving delivery predictability
+- **PMO Leadership**: Led global PMO initiatives across Americas, Europe, Middle East, and Africa managing 45+ team members on concurrent projects with $M+ budgets
+
+## 💼 Professional Experience
+
+### IT Lead Architect | Mars (Dec 2025 - Present)
+Lead Architect and Delivery Lead on global enterprise integration team, driving technology strategy, architecture, and AI innovation. Architecting Azure Graph API and B2Bi platforms, implementing DevOps automation, and championing Agile transformation.
+
+### IT Lead Architect | Kellanova (Jan 2023 - Dec 2025)
+Established enterprise architecture guidelines for responsible AI, directed DevOps and CI/CD strategy, and led SAP S/4HANA transformation. Evaluated emerging AI technologies reducing manual effort significantly.
+
+### Integration Platform Manager | Kellanova (Nov 2015 - Dec 2022)
+Technical Lead and Product Owner for B2B Integration projects. Designed AWS cloud architecture, founded AI-ML Center of Excellence (2019), and architected API Gateway solutions.
+
+### Technical Project Lead / IT Architect | NextEra Energy (Apr 2010 - Nov 2015)
+Integration Project Lead driving process improvement projects, CI/CD practices, and MFT architecture. Led business process mapping for Six Sigma projects.
 
 ## 📫 Get In Touch
+I'm always interested in hearing about new opportunities, projects, or collaborating on enterprise architecture and AI initiatives.
+
 - **Phone**: +1 561-284-4999
 - **Email**: mario.urbina@gmail.com
 - **LinkedIn**: [linkedin.com/in/mario-urbina-b9bb255](https://www.linkedin.com/in/mario-urbina-b9bb255/)
@@ -81,4 +147,5 @@ Production-ready EDI integration solutions for various trading partners:
 This portfolio is © 2026 Mario Urbina. All rights reserved.
 
 ---
+*Built with passion for enterprise architecture, AI innovation, and automation*  
 *Last Updated: February 2026*
